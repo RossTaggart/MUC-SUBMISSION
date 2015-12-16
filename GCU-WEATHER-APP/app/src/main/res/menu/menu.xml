@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Quit"
+          android:title="Quit"
+          android:icon="@drawable/ic_menu_action_quit"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/About"
+          android:icon="@drawable/ic_menu_action_about"
+          android:title="About"/>
+    <item android:id="@+id/Map"
+          android:icon="@drawable/ic_menu_action_about"
+          android:title="@string/map"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/canvasDraw"
+          android:title="Draw to Canvas"
+          android:icon="@drawable/ic_menu_action_about"
+          android:showAsAction="ifRoom"/>
+
+</menu>
